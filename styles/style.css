@@ -80,7 +80,7 @@ p {
   padding-top: 40px;
 }
 
-.header-contacts--mobile {
+.header__container {
   display: none;
 }
 
@@ -682,6 +682,10 @@ background-color: #000000;
     display: none;
   }
 
+  .header__container {
+    display: block;
+  }
+
   .header-contacts--mobile {
     display: flex;
     align-items: center;
@@ -782,6 +786,10 @@ background-color: #000000;
 
   .container{
     padding: 0 30px;
+  }
+
+  .header__container {
+    display: block;
   }
 
   .header__address, .header__social {
